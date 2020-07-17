@@ -5,18 +5,35 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@gatsby-contrib/gatsby-transformer-ipynb": "^0.5.8",
+    "@types/node": "^14.0.22",
+    "@types/react": "^16.9.42",
+    "@types/react-dom": "^16.9.8",
     "gatsby": "^2.23.12",
     "gatsby-image": "^2.4.9",
+    "gatsby-plugin-emotion": "^4.3.10",
     "gatsby-plugin-manifest": "^2.4.14",
     "gatsby-plugin-offline": "^3.2.13",
     "gatsby-plugin-react-helmet": "^3.3.6",
     "gatsby-plugin-sharp": "^2.6.14",
+    "gatsby-plugin-typography": "^2.5.10",
     "gatsby-source-filesystem": "^2.3.14",
     "gatsby-transformer-sharp": "^2.5.7",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-typography": "^0.16.19",
+    "typescript": "^3.9.6",
+    "typography": "^0.16.19",
+    "typography-theme-elk-glen": "^0.16.19",
+    "typography-theme-funston": "^0.16.19",
+    "typography-theme-lincoln": "^0.16.19"
+  },
+  "resolutions": {
+    "@gatsby-contrib/gatsby-transformer-ipynb/@nteract/notebook-render": "https://github.com/sdobz/notebook-render"
   },
   "devDependencies": {
     "prettier": "2.0.5"

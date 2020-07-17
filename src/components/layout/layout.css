@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(0, 0.3fr) minmax(0, 1.2fr);
+  grid-template-rows: minmax(0,0.1fr) minamx(0, 1.3fr);
+  gap: 5px 5px;
+  grid-template-areas: "header header" "sidebar content";
+}
+
+.header { 
+  grid-area: header;
+  background-color: #586994;
+  min-height: 0;  /* NEW */
+  min-width: 0;   /* NEW; needed for Firefox */
+}
+
+.sidebar { grid-area: sidebar; }
+
+.content { grid-area: content;}
